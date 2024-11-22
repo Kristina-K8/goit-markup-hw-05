@@ -555,10 +555,31 @@
               class="area-modal"
               name="user-comment"
               id="user-comment"
-              placeholder="Tex input"
+              placeholder="Text input"
             >
             </textarea>
           </div>
+
+          <div class="modal-form-agremeent">
+            <input
+              class="agremeent-input visually-hidden"
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
+            />
+            <label class="agremeent-label" for="user-privacy">
+              <span class="modal-form-checkbox">
+                <svg class="modal-checkbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="modal-form-link" href="#">Privacy Policy</a>
+            </label>
+          </div>
+
+          <button class="modal-button-send" type="submit">Send</button>
         </form>
       </div>
     </div>
