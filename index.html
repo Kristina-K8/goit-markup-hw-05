@@ -501,16 +501,44 @@
     <div class="backdrop is-open">
       <div class="modal">
         <p class="modal-p">Leave your contacts and we will call you back</p>
-        <form class="modal-contacts">
+        <form>
           <div class="modal-container">
-            <labe class="modal-labe">Name</labe>
+            <label class="modal-label" for="user-name">Name</label>
             <div class="name-modal-div">
-              <input class="name-input" />
-              <svg></svg>
+              <input
+                class="input-class"
+                type="text"
+                id="user-name"
+                name="user-name"
+              />
+              <svg>
+                <use></use>
+              </svg>
             </div>
           </div>
-
-          <div class=""></div>
+          <div class="modal-container">
+            <label class="modal-label" for="user-phone">Phone</label>
+            <div class="phone-modal-div">
+              <input
+                class="input-class"
+                type="tel"
+                id="user-phone"
+                name="user-phone"
+              />
+              <svg>
+                <use></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-container">
+            <label class="modal-label" for="user-email">Email</label>
+            <div class="email-modal-div">
+              <input class="input-class" type="email" />
+              <svg>
+                <use></use>
+              </svg>
+            </div>
+          </div>
         </form>
       </div>
     </div>
