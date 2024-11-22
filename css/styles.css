@@ -525,16 +525,27 @@ img {
   color: #fff;
 }
 
+.form-footer-class {
+  display: flex;
+  gap: 24px;
+}
+
 .input-wrapper {
   margin-top: 16px;
 }
 
 .form-input {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: 1px solid #fff;
   border-radius: 4px;
   width: 264px;
   height: 40px;
-  background-color: #2e2f42;
+  background-color: transparent;
 }
 
 .button-footer {
