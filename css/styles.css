@@ -516,7 +516,8 @@ img {
   max-width: 453px;
 }
 
-.form-label {
+.form-p {
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -759,7 +760,6 @@ img {
   height: 56px;
 
   font-family: 'Roboto', sans-serif;
-
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
