@@ -567,6 +567,7 @@ img {
 }
 .button-svg-send {
   margin-left: 16px;
+  fill: #fff;
 }
 
 .backdrop {
@@ -690,6 +691,10 @@ img {
   border-color: #4d5ae5;
 }
 
+.input-class:focus + .icons-modal {
+  fill: #4d5ae5;
+}
+
 .icons-modal {
   position: absolute;
   left: 16px;
@@ -775,6 +780,7 @@ img {
 
 .modal-form-link {
   text-decoration: underline;
+  color: #4d5ae5;
 }
 
 .modal-button-send {
